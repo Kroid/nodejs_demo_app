@@ -3,5 +3,14 @@
   "version": "0.0.0",
   "main": "index.js",
   "author": "George M Kroid <kroid@yandex.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "db-migrate": "^0.10.0-beta.20",
+    "db-migrate-pg": "^0.1.11",
+    "pg": "^6.1.5"
+  },
+  "scripts": {
+    "db:migrate": "db-migrate up --config config/database.json",
+    "db:migrate:down": "db-migrate down --config config/database.json"
+  }
 }
