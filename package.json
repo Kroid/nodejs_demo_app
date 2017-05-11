@@ -1,0 +1,7 @@
+{
+  "name": "nodejs_demo_app",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "George M Kroid <kroid@yandex.ru>",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+.*.swp
+._*
+.DS_Store
+.git
+.hg
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+
+.log
+*.log
+
+node_modules
